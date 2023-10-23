@@ -11,7 +11,7 @@
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
     },
-    "collectCoverage": false,
+    "collectCoverage": false ,
     "coverageThreshold": {
     "global": {
       "branches": 100,
