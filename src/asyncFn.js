@@ -13,3 +13,11 @@ export const sayHello = (name) => {
   }
   throw new Error("name is required");
 }
+
+export const getBalance = async (name, from) => {
+  const balance = await from();
+  return {
+    name,
+    balance
+  }
+}
