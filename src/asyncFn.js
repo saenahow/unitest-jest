@@ -6,3 +6,10 @@ export const sayHelloAsync = (name) => {
     }, 1000);
   })
 }
+
+export const sayHello = (name) => {
+  if (name) {
+    return `Hello ${name}`;
+  }
+  throw new Error("name is required");
+}
